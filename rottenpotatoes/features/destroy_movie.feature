@@ -17,8 +17,6 @@ Scenario: destroy movie
     When I am on the details page for "Star Wars"
     And I press "Delete"
     Then I should see "Movie 'Star Wars' deleted."
-    And I should not see "PG"
-    And I should not see "George Lucas"
     And I should not see "1977-05-25"
     
    
